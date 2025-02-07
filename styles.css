@@ -56,4 +56,9 @@ body {
       height: 150%;
     }
   }
+  .icon {
+    height: 1rem;
+    border: 0.15rem rgb(186, 186, 186) solid;
+    border-radius: 50%;
+  }
 }
