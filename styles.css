@@ -29,7 +29,13 @@ body {
   .bottom {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 2rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .bottom {
+    border-top: 10px solid #000;
   }
 
   .profile {
@@ -56,9 +62,17 @@ body {
       height: 150%;
     }
   }
+  a {
+    display: flex;
+    gap: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+  h3 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
   .icon {
-    height: 1rem;
-    border: 0.15rem rgb(186, 186, 186) solid;
+    height: 1.25rem;
     border-radius: 50%;
   }
 }
