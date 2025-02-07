@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile card</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <picture>
+          <img
+            src="./images/profile-pic.png"
+            alt="My profile picture"
+            data-testid="profilePicture" />
+        </picture>
+        <h1 data-testid="fullName">MAGENE Sem Joel</h1>
+        <p data-testid="jobTitle">Fullstack developer</p>
+        <p data-testid="shortBio">
+          Full-stack junior web developer with expertise in React, Next.js,
+          TypeScript, and Node.js. Open-source contributor and Wishathon 2024
+          participant. Passionate about innovation and growth.
+        </p>
+        <address>
+          <span data-testid="currentLocation">Goma, DRC</span>
+          <a data-testid="emailAddress" href="mailto: semjomagene.com"
+            >My email</a
+          >
+        </address>
+        <div>
+          <p>Social links to my profiles</p>
+          <nav data-testid="socialLinks">
+            <a href="https://github.com/Jomagene">Github</a>
+            <a href="https://www.frontendmentor.io/profile/Jomagene"
+              >Frontend mentor</a
+            >
+            <a href="https://dev.to/jomagene">Devto</a>
+          </nav>
+        </div>
+        <p id="clock" data-testid="currentTimeUTC"></p>
+      </section>
+    </main>
+  </body>
+</html>
